@@ -26,9 +26,11 @@ Dalsza nauka silnika do tworzenia gier "Godot". Zapoznałam się z tworzeniem te
 Poznałam rodzaje licencji oprogramowania komputerowego oraz rozpowszechniania programów komputerowych. Uczyłam się z korzystanie z narzędzia wbudowanego w system Windows o nazwie Command Prompt, w skrócie CMD. Poznałam polecenia dotyczące obsługi dysków takie jak diskpart, chkdsk, a także obsługi podstawowych poleceń takich jak runas, cls, cd, taskkill, tasklist, time, date, dir, w32tm, hostname, find, echo, exit itp.
 
 9.05
+
 Zapoznałam się z przystawkami w systemie Windows takimi jak: Użytkownicy i grupy - tworzenie użytkowników i grup oraz przypisywanie użytkowników do grup, devmgm.msc (menedżer urządzeń), gpedit.msc (zasady grupy), gpmc.msc (zarządzanie zasadami grupy), perfmon.msc (monitor niezawodności i wydajności). Wykonałam oczyszczanie systemu przy użyciu narzędzia CCleaner, RegCleaner, a także wykonałam defragmentację dysku.
 
 10.05
+
 Zainstalowałam system operacyjny Linux Ubuntu, wykonałam jego podstawową konfigurację w celu umożliwienia pracy dla użytkownika. Poznałam podstawowe komendy terminala, przeprowadziłam operacje na plikach, partycjach, a także plikach konfiguracyjnych zawartych w katalogu /etc. Dokonałam instalacji programów użytkowych takich jak Gimp, Microsoft Teams, Audacity, Discord, 7-zip, OBS studio.
 
 11.05
