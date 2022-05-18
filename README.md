@@ -44,3 +44,6 @@ Utworzyłam jednostki organizacyjne biuro, pracownicy oraz administratorzy w dom
 13.05
 
 Dla wczoraj utworzonych jednostek organizacyjnych przypisałam zasady grupy. Dla użytkowników przypisanych do "biura" przy użyciu szablonów administracyjnych zablokowałam dostęp do panelu sterowania oraz edytora rejestru, to samo wykonałam dla użytkowników "pracownicy", a także dla "pracowników" uniemożliwiłam odczyt i zapis dysków wymiennych, dodawanie i usuwanie drukarek, możliwość personalizacji tapety. Dla wszystkich użytkowników domeny TEST.LOCAL wyłączyłam automatyczne aktualizacje systemu Windows.
+
+16.05
+
