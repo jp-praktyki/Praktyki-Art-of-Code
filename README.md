@@ -34,3 +34,13 @@ Zapoznałam się z przystawkami w systemie Windows takimi jak: Użytkownicy i gr
 Zainstalowałam system operacyjny Linux Ubuntu, wykonałam jego podstawową konfigurację w celu umożliwienia pracy dla użytkownika. Poznałam podstawowe komendy terminala, przeprowadziłam operacje na plikach, partycjach, a także plikach konfiguracyjnych zawartych w katalogu /etc. Dokonałam instalacji programów użytkowych takich jak Gimp, Microsoft Teams, Audacity, Discord, 7-zip, OBS studio.
 
 11.05
+
+Instalacja systemu operacyjnego Microsoft Windows Server 2016 w wersji Standard na maszynie wirtualnej posługując się programem virtual box. Przeprowadziłam podstawową konfigurację systemu w tym nadanie odpowiedniego adresu IP oraz DNS, a także zainstalowałam usługę Active Directory oraz DNS. Utworzyłam nowy las oraz domenę TEST.LOCAL.
+
+12.05
+
+Utworzyłam jednostki organizacyjne biuro, pracownicy oraz administratorzy w domenie TEST.LOCAL, dodałam do każdej z jednostek po 5 użytkowników. Dla członków jednostki biura przypisałam możliwość logowania między 8 a 16 od poniedziałku do piątku, tak samo dla pracowaników, u administracji pozostawiłam bez zmian. Umożliwiłam także zdalne sterowanie usługami pulpitu zdalnego.
+
+13.05
+
+Dla wczoraj utworzonych jednostek organizacyjnych przypisałam zasady grupy. Dla użytkowników przypisanych do "biura" przy użyciu szablonów administracyjnych zablokowałam dostęp do panelu sterowania oraz edytora rejestru, to samo wykonałam dla użytkowników "pracownicy", a także dla "pracowników" uniemożliwiłam odczyt i zapis dysków wymiennych, dodawanie i usuwanie drukarek, możliwość personalizacji tapety. Dla wszystkich użytkowników domeny TEST.LOCAL wyłączyłam automatyczne aktualizacje systemu Windows.
