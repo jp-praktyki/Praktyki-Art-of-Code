@@ -47,3 +47,22 @@ Dla wczoraj utworzonych jednostek organizacyjnych przypisałam zasady grupy. Dla
 
 16.05
 
+Przy użyciu emulatora ze strony TP-Link przeprowadziłam konfigurację routera o modelu Archer C6. Zapoznałam się z możliwościami konfiguracyjnymi, w tym z konfiguracją połączenia z internetem, ustawieniami sieci wewnętrznej, konfiguracją WLAN oraz serwera DHCP i DNS, ustawiłam też filtrowanie adresów MAC. Przyjrzałam się możliwym ustawieniom servera VPN oraz opcji VLAN.
+
+17.05
+
+Przy użyciu emulatora ze strony TP-Link zapoznałam się z możliwościami konfiguracji przełącznika zarządzalnego TL-SG3424 w wersji v2. Ustanowiłam w nim nowy adres IP, maskę oraz bramę domyślną. Przypisałam port Mirroring, odizolowałam porty (wybrane). Utworzyłam 2 sieci VLAN, pierwsza zawierająca porty z zakresu 1-14, druga 15-28. Odblokowałam protokół Spanning Tree w wersji MSTP.
+
+18.05
+
+Do wcześniej konfigurowanego na maszynie wirtualnej systemu Windows Server 2016 dodałam rolę "Serwer DHCP", a także "Dostęp Zdalny". Skonfigurowałam serwer DHCP na serwerze, tworząc pulę adresów z zakresu 10.0.0.5 - 10.0.0.60, z zastrzeżeniem adresów 10.0.0.15 - 10.0.0.20. Czas dzierżawy wyznaczyłam na 4,5h. Później skonfigurowałam i włączyłam routing.
+
+19.05
+
+Na nowo stworzonym serwerze Windows Server 2016 zainstalowałam rolę serwer DNS. Skonfigurowałam go oraz stworzyłam strefę wyszukiwania do przodu oraz wstecz, sprawdziłam poprawność konfiguracji przez podłączenie hosta do sieci i zastosowanie w jego ustawieniach przy serwerze DNS adresu IP wcześniej skonfigurowanego serwera. Dodatkowo zainstalowałam rolę Serwer IIS.
+
+20.05
+
+Skonfigurowałam serwer IIS, w ramach którego stworzyłam witrynę "firma". Utworzyłam nowy katalog na dysku C oraz stworzyłam w nim dokument HTML mający pełnić rolę strony tytułowej domeny. W ustawieniach zmieniłam dokument domyślny na nowoutworzony plik, a także w strefie wyszukiwania do przodu i wstecz dodałam domenę strony. Dla utworzonego użytkownika "admin" stworzyłam w witrynie "firma" publikację FTP przyznając mu uprawnienia do zapisu i odczytu.
+
+23.05
