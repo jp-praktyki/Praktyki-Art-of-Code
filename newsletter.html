@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pseudo.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="baner">
+         <span>INF.02</span><br>twoje źródło wiedzy do egzaminu
+       </div>
+
+       <nav>
+            <ol>
+                <a href="index.html"><li>Strona główna</li></a>
+                <a href="articles.html"><li>Artykuły</li></a>
+                <a href="links.html"><li>Przydatne Linki</li></a>
+                <a href="newsletter.html"><li>Newsletter</li></a>
+                <a href="contact.html"><li>Kontakt</li></a>
+            </ol>
+        </nav>
+
+    </header>
+
+    <div class="container newsletter">
+        <article class="newsletter">
+
+            <h1 class="newsletter">Zapisz się do Newslettera!</h1>
+
+            <form action="add_email_to_db.php" method="post">  
+            
+                <section class="newsletter">
+                    <label for="input_name">Nazwa użytkownika </label>
+                    <input name="username" id="input_name" type="text" class="newsletter" required>
+                </section>
+
+                <section class="newsletter">
+                    <label for="address_email">Podaj swój email: </label>
+                    <input name="email" id="address" type="email" class="newsletter" required>
+                </section>
+
+                <section class="newsletter">
+                    <input type="checkbox" name="agreement" id="agreement" class="newsletter" required>
+                    <label id="agreement_label" for="agreeement">Wyrażam zgodę na przetwarzanie moich danych osobowych. Administratorem danych jest firma Art of Code, dane będą przetwarzane w celach marketingowych administratora, a w szczególności przesyłania newslettera na podany adres e-mail. Przetwarzanie danych osobowych w wyżej wymienionych celach odbywać będzie się na podstawie zgody wyrażonej przez Panią/Pana, zgodnie z art. 6 ust. 1. lit. a) Rozporządzenia Ogólnego o Ochronie Danych Osobowych (dalej RODO). W ramach realizacji tych celów dane mogą być wykorzystane w procesie profilowania, którego celem jest jak najlepsze dopasowanie przesyłanych informacji do Pani/Pana potrzeb i zainteresowań (art. 6 ust. 1 lit. f RODO). Pani/Pana dane osobowe nie będą udostępnianie na rzecz innych podmiotów bez uprzedniej zgody wyrażonej przez Panią/Pana. Pani/Pana dane osobowe mogą być udostępnianie podmiotom do tego upoważnionym na podstawie przepisów prawa. Pani/Pana dane osobowe nie będą przekazywane do państwa trzeciego/organizacji międzynarodowej. Pani/Pana dane osobowe będą przechowywane przez okres niezbędny dla świadczenia usługi. Posiada Pani/Pan prawo dostępu do treści swoich danych oraz prawo ich sprostowania, usunięcia, ograniczenia przetwarzania, przeniesienia, wniesienia sprzeciwu. Przysługuje Pani/Panu prawo do wycofania zgody na przetwarzanie danych osobowych w dowolnym momencie. Skorzystanie przez Panią/Pana z tego prawa pozostaje bez wpływu na zgodność z prawem przetwarzania danych osobowych, które miało miejsce przed wycofaniem zgody. Przysługuje Pan/Pani prawo wniesienia skargi do Prezesa Urzędu Ochrony Danych Osobowych lub do innego organu nadzorczego właściwego na podstawie przepisów RODO, gdy uzna Pani/Pan, iż przetwarzanie danych osobowych Pani/Pana dotyczących narusza przepisy RODO. Podanie przez Pana/Panią danych osobowych jest dobrowolne, ale niezbędne dla realizacji wskazanych celów.Informujemy, że zgoda na przetwarzanie danych osobowych do wskazanych  powyżej celów może zostać wyrażona przez osobę, która ukończyła 16 lat.
+                    </label>
+                </section>
+
+                <button type="submit" class="newsletter">Zatwierdź</button>
+            </form> 
+        </article>
+
+    </div>
+
+    <footer>
+        <div class="footer newsletter">
+            <p>Kontakt</p>
+            <p><a href="mailto:juliapirch.jp@gmail.com">email: juliapirch.jp@gmail.com</a></p>
+            <p>Author: Julia Pirch</p>
+            <p>Company: Art of Code</p>
+        </div>
+        <div id="rights">All rigths reserved ©</div>
+    </footer>
+
+</body>
+</html>
