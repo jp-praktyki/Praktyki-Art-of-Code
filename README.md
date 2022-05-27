@@ -66,13 +66,21 @@ Na nowo stworzonym serwerze Windows Server 2016 zainstalowałam rolę serwer DNS
 Skonfigurowałam serwer IIS, w ramach którego stworzyłam witrynę "firma". Utworzyłam nowy katalog na dysku C oraz stworzyłam w nim dokument HTML mający pełnić rolę strony tytułowej domeny. W ustawieniach zmieniłam dokument domyślny na nowoutworzony plik, a także w strefie wyszukiwania do przodu i wstecz dodałam domenę strony. Dla utworzonego użytkownika "admin" stworzyłam w witrynie "firma" publikację FTP przyznając mu uprawnienia do zapisu i odczytu.
 
 23.05
+
 Stworzyłam stronę w HTML, tak zwanym języku znaczników, z dołączonym do niej kaskadowym arkuszem stylów (CSS). Stworzona strona składa się z 6 elementów, jakimi są: articles.html, contact.html, links.html, newsletter.html, pseudo.css oraz najważniejszego, głównego elementu startowego index.html. Zaprojektowałam grafikę dla witryny, strukturę strony oraz rozplanowałam dalszy projekt.
 
 24.05
+
 Na wcześniej stworzonej stronie uzupełniłam index.html. Dodałam header, w którym znajduje się baner oraz nawigacja, jako treść przedstawiłam proponowane artykuły, które w przyszłości będą linkami do rzeczywistych artykułów. Uzupełniłam też stronę links.html, gdzie dodałam linki przydatne do nauki do egzaminu INF.02. Utworzyłam repozytorium gita, w którym zamieściłam elementy projektu i połączyłam je z repozytorium na githubie.
 
 25.05
+
 Skonfigurowałam podstronę contact.html. Dodałam na niej moje dane kontaktowe: imię i nazwisko, firmę oraz social media: twitter, facebook, instagram. Poprawiłam układ stron w dokumencie pseudo.css, aby był dostosowany do potrzeb tej podstrony. Rozpoczęłam research w kwestii utworzenia newslettera i bazy danych na stronie.
 
 26.05
+
 Okazało się, że Github Pages, na którym początkowo planowałam zrobić bazę danych nie obsługuje Pythona ani PHP, więc zaczęłam pracę lokalnie przy użyciu środowiska XAMPP. Skonfigurowałam podstronę newsletter.html oraz utworzyłam nowe pliki: newsletter.db (baza danych dla nazw użytkownika i emaili) oraz add_email_to_db.php (odpowiada za odebranie danych z formularza strony, wysłanie maila powitalnego oraz dodanie odpowiedniego wpisu do bazy danych). Umieściłam też narzędzie PHPMailer w folderze, aby móc korzystać z jego możliwości w kodzie.
+
+27.05
+
+Uzupełniłam stronę articles.html przez dodanie do nią artykułów, do jakich użytkownik może się przenieść po naciśnięciu kafelka. Uporządkowałam kod, aby był jak najbardziej przejrzysty i dodałam projekt stworzony w godocie do repozytorium gita, a następnie udostępniłam na githubie. Ostatecznie skończyłam projekt i przesłałam pliki na github.

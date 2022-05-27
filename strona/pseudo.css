@@ -1,0 +1,306 @@
+/* Znacznik dla body */
+
+body{
+    background-color: #10110F;
+    font-family: American Typewriter, serif;
+    color: #FDB833;
+}
+
+
+
+
+
+/* Nagłówek z banerem */
+header{
+    width: 100%;
+    height: 15vw;
+}
+
+.baner{
+    width: 50%;
+    margin: auto;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 35px;
+    background: url("https://cdn.pixabay.com/photo/2014/05/27/23/32/matrix-356024__340.jpg");
+    color: #C0F8D1;
+    box-shadow: inset 15px 15px 15px 15px #10110F;
+    padding: 15px;
+    font-family: Bookman, URW Bookman L, serif;
+    
+}
+
+.baner span{
+    font-size: 80px;
+    font-family: Luminari, fantasy;
+    opacity: 1.0;
+}
+
+header nav{
+    width:50%;
+    margin: auto;
+}
+
+header nav ol
+{
+	list-style-type: none;
+	font-size: 20px;
+	display: inline-block;
+    width: 100%;
+    margin-block-start: 0;
+    padding-inline-start: 20px;
+}
+
+nav ol a
+{
+    color: #FDB833;
+	text-decoration: none;
+	display: block;
+}
+
+header nav ol > a
+{
+    width:18%;
+    text-align: center;
+    float:left;
+	height: 39px; 
+    border: 1px solid #FDB833;
+    padding:8px;
+}
+
+
+
+
+
+
+/* Stopka */
+footer{
+    clear:both; 
+    height:4vw;
+    background-color: #222420;
+    width:100%;
+    margin: auto;
+}
+
+
+.footer{
+    width:50%;
+    margin:auto;
+}
+
+footer .footer p{
+    display:inline-block;
+    width: 23%;
+    text-align:center;
+}
+
+#rights{
+    margin: 10px;
+    color: #10110F;
+    background-color: #FDB833;
+    font-weight: bold;
+    opacity: 0.5;
+}
+
+#rights::after{
+    content:" 2022";
+}
+
+
+
+
+
+/* Podstawowe parametry dla używanych elementów */
+.container{
+    position:relative;
+    height: fit-content;
+    width: 60%;
+    margin:auto;
+    margin-top: 30px;
+}
+
+.short{
+    height: 30vw;
+}
+
+a:any-link{
+    color: #FDB833;
+    text-decoration: none;
+}
+
+h1{
+    font-family: Courier New, monospace;
+    padding-top: 10px;
+    font-size:50px;
+    text-align:center;
+}
+
+h3{
+    font-family: Courier New, monospace;
+    font-size: 25px;
+}
+
+.container p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding-bottom: 12px;
+    text-align: justify;
+}
+
+p::before{
+    content: "► ";
+}
+
+::selection{
+    background-color: #2F3831;
+}
+
+article{
+    background-color: #FDB833;
+    font-size: 20px;
+    margin: 15px;
+    padding: 5px;
+    color: #10110F;
+}
+
+form :not(.newsletter){
+    height: 15vh;
+    color: #10110F;
+}
+
+article h1{
+    font-family: American Typewriter, serif;
+    font-size: 30px;
+    text-align: left;
+}
+
+article img{
+    float:right;
+    height: 15vh;
+    width: 25%;
+}
+
+
+
+
+
+
+/* Zakładka kontakt */
+#business_card{
+    width: 100%;
+    height: 40vh;
+    color: #10110F;
+    padding: 10px;
+    background-color: #FDB833;
+    text-align: center;
+}
+
+#business_card a:any-link{
+    color: #10110F;
+}
+
+#social_media, #data{
+    margin-top: 50px;
+    float:left;
+    width: 50%;
+}
+
+.fa {
+    padding: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+.fa:hover {
+    opacity: 0.7;
+  }
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+.fa-instagram {
+    background: #f09433; 
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+  }
+
+
+
+
+
+/* Newsletter */
+section{
+    background-color: #f48c1d;
+    width: 80%;
+    margin: 10px auto !important;
+    color:#10110F;
+    margin: 20px;
+    padding: 20px;
+    text-align: justify;
+}
+
+.newsletter h1{
+        text-align: center;
+        font-size: 50px;
+        color: #10110F;
+}
+
+#agreement_label{
+    font-size: 15px;
+    text-align: justify !important;
+}
+
+.newsletter button{
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+form{
+    width: 100%;
+}
+
+
+
+
+
+/* Artykuły */
+article a:any-link{
+    color: #10110F;
+    text-decoration: none;
+}
+
+
+/*
+    Notatki własne
+
+color: 
+#C0F8D1 jasnozielony logo
+#10110F background
+#FDB833 żółty
+#002A27 szmaragdowy
+
+
+czcionki:
+American Typewriter, serif
+font-family: Luminari, fantasy; nagłówek/baner
+font-family: Courier New, monospace
+*/
